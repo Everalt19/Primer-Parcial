@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mas"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="Item"
+        app:showAsAction="always">
+
+    <menu>
+
+        <item
+          android:icon="@drawable/ic_refresh_black_24dp"
+          android:title="Limpiar Datos"
+          android:id="@+id/btn_limpiar">
+        </item>
+
+        <item
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Lista De Contactos"
+            android:id="@+id/btn_lista">
+        </item>
+
+
+    </menu>
+
+    </item>
+
+
+</menu>

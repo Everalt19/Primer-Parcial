@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".ActivityLista">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="20dp"
+            android:text="CONTACTOS"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@+id/lista_total"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:visibility="visible"
+            tools:listitem="@layout/listview_diseno" />
+
+        <TextView
+            android:id="@+id/lbl_cantcontactos"
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="20dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ord_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ordenar por nombre" />
+
+            <Button
+                android:id="@+id/ord_grupo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ordenar por grupo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/invertir"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Invertir lista" />
+
+            <Button
+                android:id="@+id/eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Eliminar Todos" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

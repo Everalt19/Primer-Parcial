@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PrimerParcial</string>
+    <string-array name="grupo_con">
+        <item>Familia</item>
+        <item>Trabajo</item>
+        <item>Amigo</item>
+        <item>Ocasional</item>
+    </string-array>
+</resources>

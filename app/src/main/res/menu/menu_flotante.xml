@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Convertir a mayuscula"
+        android:id="@+id/btn_mayuscula"
+        >
+    </item>
+
+    <item
+        android:title="Telefono Aleatorio"
+        android:id="@+id/btn_aleatorio"
+        >
+    </item>
+
+
+</menu>
